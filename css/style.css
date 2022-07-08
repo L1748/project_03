@@ -1,0 +1,225 @@
+/* 基础样式设置 */
+
+body{
+	font-family: arial;
+	background-color: #fff;
+	font-size: 16px;
+	line-height: 1.8;
+	font-weight: 400;
+	color: gray;
+}
+
+a{
+	text-decoration: none;
+	background-color: transparent;
+}
+
+a:hover,
+a:focus{
+	color: #00BD56;
+	text-decoration: none;
+	outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5{
+	line-height: 1.5;
+	color: rgba(0,0,0,0.8);
+	font-weight: 400;
+}
+
+.wrap{
+	z-index: 0;
+	width: 100%;
+	background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+.wrap .phone{
+	z-index: 1;
+}
+
+.wrap .phone a{
+	color: white;
+	font-size: 12px;
+}
+
+.wrap .phone span{
+	color: white;
+}
+
+.social-media span{
+	color: white;
+}
+
+.social-media span:hover{
+	color: gold;
+}
+
+/* 菜单:背景色设置 */
+.gr-navbar{
+	padding: 0;
+	background-color: #fff;
+	box-shadow: 0.05rem 0.1rem 0.1rem 0.1rem lightblue  ;
+}
+
+/* 菜单: 中等屏幕尺寸时，调整内边距 */
+@media (max-width:992px) {
+	.gr-navbar{
+		background-color: #fff;
+		position: relative;
+		top: 0;
+		padding: 10px 15px;
+	}
+}
+
+
+
+.gr-navbar > .container > a:hover{
+	color: red;
+}
+
+.gr-navbar > .container > a:focus{
+	color: blue;
+}
+
+.gr-navbar > .container > a:active{
+	color: green;
+}
+
+
+.gr-navbar .navbar-nav > .nav-item > .nav-link:hover{
+	padding-bottom: 0.1rem;
+	border-bottom: 2px solid blue;
+	color: blue;
+}
+
+.gr-navbar .navbar-nav > .nav-item > .nav-link:focus{
+	padding-bottom: 0.1rem;
+	color: red;
+	border-bottom: 2px solid red;
+}
+
+
+@media (max-width:767.98px) {
+	.gr-navbar .navbar-brand{
+		margin: 0.1rem 0;
+	}	
+}
+
+@media (min-width:992px) {
+	.gr-navbar .navbar-brand{
+		margin: 0.6rem;
+	}
+	
+	.gr-navbar .navbar-nav > .nav-item > .nav-link{
+		font-size: 1.2rem;
+	}
+}
+
+/* 面包屑 */
+.breadcrumbs-wrap{
+	background-position: center ;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.breadcrumbs-wrap{
+	height: 300px;
+}
+
+.breadcrumbs-wrap p{
+	color: white;
+	font-size: 18px;
+	margin-top: 80px;
+}
+
+.breadcrumbs-wrap h1{
+	margin-top: 40px;
+	color: white;
+}
+
+
+/* 页尾 */
+
+
+.footer1{
+	/* margin-top: 50px; */
+	background-color: #000000;
+}
+
+.footer1 a:hover{
+	color: white;
+}
+
+
+.album .row .col .svg1{
+	background-position: center;
+	background-size: cover;
+	transition: margin-top 0.3s; 
+}
+
+.album .row .col .svg1:hover{
+	margin-top: -10px;
+}
+
+.album > .container > .row .card-body {
+	height: 160px;
+}
+
+
+/* 首页 */
+
+.hero-wrap{
+	background-size: contain;
+}
+
+.hero-wrap h1{
+	color: white;
+}
+
+.hero-wrap a{
+	border-color:#00BD56 ;
+	background-color: #00BD56;
+	color: white;
+	font-size: 18px;
+}
+
+.hero-wrap a:hover{
+	color: orange;
+}
+
+/* 轮播图 */
+.lbt1{
+	
+	width: 75%;
+}
+
+
+/* 文章 */
+
+.jpwz > .container{
+	width: 75%;
+	font-size:20px ;
+}
+
+/* 联系我们 */
+
+.lxwm {
+	width: 75%;
+	
+}
+
+.lxwm > .row .svg1{
+	background-position: center;
+	background-size: cover;
+}
+
+/* 图片展示 */
+
